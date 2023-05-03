@@ -1,0 +1,46 @@
+.container {
+    position: fixed;
+    top: 0px;
+    width: 100%;
+    background-color: black;
+    z-index: 20;
+    opacity: 0.95;
+}
+
+.navBarWrapper {
+    flex: 1;
+}
+
+.navBar {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 6rem;
+    padding: 0.6rem 3rem;
+}
+
+.logoWrapper {
+    width: 8rem;
+}
+
+.navBar {
+    display: flex;
+    align-items: center;
+    gap: 4rem;
+    list-style-type: none;
+}
+
+.navItem {
+    cursor: pointer;
+    font-size: 1.1rem;
+}
+
+.userInfoContainer {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.userContent {
+    position: absolute;
+}
