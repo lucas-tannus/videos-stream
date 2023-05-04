@@ -1,0 +1,182 @@
+{
+    "kind": "youtube#searchListResponse",
+    "etag": "ycD-FZZMJKg-cXsD93MtsSQgPkc",
+    "nextPageToken": "CAUQAA",
+    "regionCode": "BR",
+    "pageInfo": {
+        "totalResults": 1000000,
+        "resultsPerPage": 5
+    },
+    "items": [
+        {
+            "kind": "youtube#searchResult",
+            "etag": "lLVx5Ev89q-TOyadtPyP14-cal8",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "ctlz0R1tSZE"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-27T12:41:06Z",
+                "channelId": "UC_976xMxPgzIa290Hqtk-9g",
+                "title": "Disney&#39;s Wish | Official Teaser Trailer",
+                "description": "Check out the new trailer, plus a poster and new image for Walt Disney Animation Studios' “Wish,” which opens exclusively in ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/ctlz0R1tSZE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/ctlz0R1tSZE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/ctlz0R1tSZE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Walt Disney Animation Studios",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-27T12:41:06Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "P5c3C3rJKP1QhcE3Z-1CqQA61-I",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "kpGo2_d3oYE"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-13T00:59:01Z",
+                "channelId": "UCuaFvcY4MhZY3U43mMt1dYQ",
+                "title": "The Little Mermaid | Official Trailer",
+                "description": "Watch and you'll see, some day I'll be, part of your world! Watch the new trailer for #TheLittleMermaid and see the movie in ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/kpGo2_d3oYE/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/kpGo2_d3oYE/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/kpGo2_d3oYE/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Walt Disney Studios",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-13T00:59:01Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "mcU4unrByeS6PcY4jtFoD3xzfRM",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "hXzcyx9V0xw"
+            },
+            "snippet": {
+                "publishedAt": "2023-03-28T12:44:23Z",
+                "channelId": "UC_IRYSp4auq7hKLvziWVH6w",
+                "title": "Elemental | Official Trailer",
+                "description": "This Summer, meet the residents of Element City Watch the new trailer for Disney and Pixar's #Elemental and see the movie in 3D ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/hXzcyx9V0xw/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/hXzcyx9V0xw/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/hXzcyx9V0xw/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Pixar",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-03-28T12:44:23Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "qg7gIi8SMtB9oKMQ-wbxYV_EcEQ",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "GISA8oez0NM"
+            },
+            "snippet": {
+                "publishedAt": "2023-04-10T16:47:32Z",
+                "channelId": "UCMm8XFMnB2wODJqYt6d6OJQ",
+                "title": "Peter Pan &amp; Wendy | Nuevo Tráiler Oficial en español | Disney+",
+                "description": "Esto supera cualquier sueño ✨ #PeterPanYWendy, estreno el 28 de abril solo en #DisneyPlus. Síguenos en Instagram: ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/GISA8oez0NM/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/GISA8oez0NM/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/GISA8oez0NM/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Disney España",
+                "liveBroadcastContent": "none",
+                "publishTime": "2023-04-10T16:47:32Z"
+            }
+        },
+        {
+            "kind": "youtube#searchResult",
+            "etag": "ZkXuzpSQ_g6lgYNzK5XYiMt-EeI",
+            "id": {
+                "kind": "youtube#video",
+                "videoId": "S0yqQM5nJOo"
+            },
+            "snippet": {
+                "publishedAt": "2020-11-11T21:30:01Z",
+                "channelId": "UCApaSzvP6jM9rfs8UbcqD1g",
+                "title": "Mulan | Trailer Oficial Legendado | Disney+",
+                "description": "Hua Mulan é a espirituosa e determinada filha mais velha de um honrado guerreiro. Quando o Imperador da China emite um ...",
+                "thumbnails": {
+                    "default": {
+                        "url": "https://i.ytimg.com/vi/S0yqQM5nJOo/default.jpg",
+                        "width": 120,
+                        "height": 90
+                    },
+                    "medium": {
+                        "url": "https://i.ytimg.com/vi/S0yqQM5nJOo/mqdefault.jpg",
+                        "width": 320,
+                        "height": 180
+                    },
+                    "high": {
+                        "url": "https://i.ytimg.com/vi/S0yqQM5nJOo/hqdefault.jpg",
+                        "width": 480,
+                        "height": 360
+                    }
+                },
+                "channelTitle": "Disney+ Brasil",
+                "liveBroadcastContent": "none",
+                "publishTime": "2020-11-11T21:30:01Z"
+            }
+        }
+    ]
+}

@@ -6,44 +6,25 @@ import Banner from '../components/banner/banner'
 import Navbar from '../components/nav/navbar'
 import SectionCards from '../components/section-cards/section-cards'
 
+import { getVideos } from '@/lib/videos'
+
 const inter = Inter({ subsets: ['latin'] })
 
-export default function Home() {
-  const cards = [
-    {
-      title: "Disney",
-      size: "large",
+export async function getServerSideProps() {
+  return {
+    props: {
       cards: [
         {
-          imgUrl: "/static/clifford.webp"
-        },
-        {
-          imgUrl: "/static/clifford.webp"
-        },
-        {
-          imgUrl: "/static/clifford.webp"
-        }, 
-        {
-          imgUrl: "/static/clifford.webp"
-        }, 
-        {
-          imgUrl: "/static/clifford.webp"
-        },
-        {
-          imgUrl: "/static/clifford.webp"
-        },
-        {
-          imgUrl: "/static/clifford.webp"
-        },
-        {
-          imgUrl: "/static/clifford.webp"
-        },
-        {
-          imgUrl: "/static/clifford.webp"
+          title: "Disney",
+          size: "large",
+          cards: await getVideos("disney trailers")
         }
       ]
     }
-  ]
+  }
+}
+
+export default function Home({ cards }) {
 
   return (
     <>
