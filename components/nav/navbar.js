@@ -27,7 +27,7 @@ const NavBar = () => {
                     <ul className={styles.navBar}>
                         {
                             menuItems.map(item => (
-                                <li className={styles.navItem} onClick={(e) => handleMenuItemClick(e, item.path)}>
+                                <li key={item.name} className={styles.navItem} onClick={(e) => handleMenuItemClick(e, item.path)}>
                                     { item.name }
                                 </li>
                             ))

@@ -4,6 +4,7 @@ import styles from '@/styles/Home.module.css'
 
 import Banner from '../components/banner/banner'
 import Navbar from '../components/nav/navbar'
+import Card from '../components/card/card'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -22,6 +23,9 @@ export default function Home() {
         subtitle="A new journey is comming!"
         imgUrl="/static/starWars.jpg"
       />
+      <Card imgUrl="/static/clifford.webp" size="small" />
+      <Card imgUrl="/static/clifford.webp" size="medium" />
+      <Card imgUrl="/static/clifford.webp" size="large" />
     </>
   )
 }
