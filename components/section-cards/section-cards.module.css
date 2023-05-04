@@ -1,0 +1,20 @@
+.container {
+    padding: 2rem;
+}
+
+.title {
+    color: var(--white10);
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+.cardsWrapper {
+    display: flex;
+    padding-top: 1.7rem;
+    padding-bottom: 1.5rem;
+    margin-top: 1.5rem;
+    margin-right: 0.75rem;
+    overflow-x: scroll;
+    overflow-y: hidden;
+    gap: 0.8rem;
+}

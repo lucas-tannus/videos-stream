@@ -6,7 +6,7 @@ import { motion } from "framer-motion"
 import styles from './card.module.css'
 
 const Card = (props) => {
-    const { imgUrl, size } = props
+    const { id, imgUrl, size } = props
 
     const cardSizes = {
         small: styles.smItem,
@@ -17,7 +17,7 @@ const Card = (props) => {
     return (
         <div className={styles.container}>
             <motion.div whileHover={{ scale: 1.1 }} className={cls(styles.imgMotionWrapper, cardSizes[size])}>
-                <Image src={imgUrl} alt="image" fill={true} className={styles.cardImg} />
+                <Image id={id} src={imgUrl} alt="image" fill={true} className={styles.cardImg} />
             </motion.div>
         </div>
     )

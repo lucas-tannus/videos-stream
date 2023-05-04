@@ -4,11 +4,47 @@ import styles from '@/styles/Home.module.css'
 
 import Banner from '../components/banner/banner'
 import Navbar from '../components/nav/navbar'
-import Card from '../components/card/card'
+import SectionCards from '../components/section-cards/section-cards'
 
 const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
+  const cards = [
+    {
+      title: "Disney",
+      size: "large",
+      cards: [
+        {
+          imgUrl: "/static/clifford.webp"
+        },
+        {
+          imgUrl: "/static/clifford.webp"
+        },
+        {
+          imgUrl: "/static/clifford.webp"
+        }, 
+        {
+          imgUrl: "/static/clifford.webp"
+        }, 
+        {
+          imgUrl: "/static/clifford.webp"
+        },
+        {
+          imgUrl: "/static/clifford.webp"
+        },
+        {
+          imgUrl: "/static/clifford.webp"
+        },
+        {
+          imgUrl: "/static/clifford.webp"
+        },
+        {
+          imgUrl: "/static/clifford.webp"
+        }
+      ]
+    }
+  ]
+
   return (
     <>
       <Head>
@@ -23,9 +59,11 @@ export default function Home() {
         subtitle="A new journey is comming!"
         imgUrl="/static/starWars.jpg"
       />
-      <Card imgUrl="/static/clifford.webp" size="small" />
-      <Card imgUrl="/static/clifford.webp" size="medium" />
-      <Card imgUrl="/static/clifford.webp" size="large" />
+      {
+        cards.map(section => (
+          <SectionCards key={section.title} title={section.title} cards={section.cards} size={section.size} />
+        ))
+      }
     </>
   )
 }
