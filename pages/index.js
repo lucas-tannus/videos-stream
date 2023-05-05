@@ -58,7 +58,7 @@ export default function Home({ cards }) {
         />
         {
           cards.map(section => (
-            <SectionCards key={section.title} title={section.title} cards={section.cards} size={section.size} />
+            section.cards.length === 0 ? <></> : <SectionCards key={section.title} title={section.title} cards={section.cards} size={section.size} />
           ))
         }
       </div>

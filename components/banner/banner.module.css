@@ -8,6 +8,7 @@
 
 .leftContainerWrapper {
     position: absolute;
+    margin-top: 18rem;
     height: 100%;
     width: 100%;
 }
