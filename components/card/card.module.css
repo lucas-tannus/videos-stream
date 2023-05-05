@@ -1,12 +1,12 @@
 .container {
     margin-right: 0.25rem /* 4px */;
     cursor: pointer;
+    padding: 1.3rem 0;
 }
   
 .imgMotionWrapper {
     position: relative;
     display: inline-block;
-    overflow: hidden;
 }
   
 .imgMotionWrapper:hover {

@@ -6,12 +6,13 @@
     color: var(--white10);
     font-weight: 700;
     font-size: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: 1rem;
+    margin-left: 1rem;
 }
 
 .cardsWrapper {
     display: flex;
     overflow-x: scroll;
     overflow-y: hidden;
-    gap: 0.5rem;
+    gap: 0.2rem;
 }
