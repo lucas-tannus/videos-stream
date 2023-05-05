@@ -6,7 +6,7 @@ import Banner from '../components/banner/banner'
 import Navbar from '../components/nav/navbar'
 import SectionCards from '../components/section-cards/section-cards'
 
-import { getVideos } from '@/lib/videos'
+import { getCommonVideos, getPopularVideos } from '@/lib/videos'
 
 const inter = Inter({ subsets: ['latin'] })
 
@@ -17,7 +17,22 @@ export async function getServerSideProps() {
         {
           title: "Disney",
           size: "large",
-          cards: await getVideos("disney trailers")
+          cards: await getCommonVideos("disney trailers")
+        },
+        {
+          title: "Travel",
+          size: "small",
+          cards: await getCommonVideos("travel")
+        },
+        {
+          title: "Productivity",
+          size: "medium",
+          cards: await getCommonVideos("productivity")
+        },
+        {
+          title: "Popular",
+          size: "small",
+          cards: await getPopularVideos()
         }
       ]
     }
@@ -35,16 +50,18 @@ export default function Home({ cards }) {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <Navbar />
-      <Banner 
-        title="Star Wars"
-        subtitle="A new journey is comming!"
-        imgUrl="/static/starWars.jpg"
-      />
-      {
-        cards.map(section => (
-          <SectionCards key={section.title} title={section.title} cards={section.cards} size={section.size} />
-        ))
-      }
+      <div className={styles.mainContainer}>
+        <Banner 
+          title="Star Wars"
+          subtitle="A new journey is comming!"
+          imgUrl="/static/starWars.jpg"
+        />
+        {
+          cards.map(section => (
+            <SectionCards key={section.title} title={section.title} cards={section.cards} size={section.size} />
+          ))
+        }
+      </div>
     </>
   )
 }
