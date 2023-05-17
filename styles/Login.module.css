@@ -16,7 +16,7 @@
 .mainWrapper {
   display: flex;
   flex-direction: column;
-  gap: 2rem;
+  gap: 2.1rem;
   padding: 3rem 3rem 5rem;
   background-color: var(--black20);
   border-radius: 1rem;
