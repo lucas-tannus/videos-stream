@@ -1,0 +1,45 @@
+.container {
+  display: flex;
+  align-items: center;
+  min-height: 100vh;
+  background-image: linear-gradient(rgb(0 0 0 / 60%), rgb(0 0 0 / 60%)),
+  url(/static/netflix-bg.jpeg);
+}
+
+.main {
+  display: flex;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+}
+
+.mainWrapper {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  padding: 3rem 3rem 5rem;
+  background-color: var(--black20);
+  border-radius: 1rem;
+  min-width: 240px;
+}
+
+.title {
+  font-size: 2.2rem;
+}
+
+.emailInput {
+  padding: 0.8rem;
+}
+
+.loginButton {
+  color: var(--white);
+  background-color: var(--red10);
+  padding: 1rem 0;
+  border-radius: 0.3rem;
+  margin-top: 1.8rem;
+}
+
+.userMessage {
+  font-size: 0.8rem;
+  margin-top: -1rem;
+}
